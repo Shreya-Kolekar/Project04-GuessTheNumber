@@ -63,8 +63,8 @@ function displayGuess(guess) {
     // clean-up method
     userInput.value = '';
     guessSlot.innerHTML += `${guess} , `;
-    numGuess ++
     remaining.innerHTML = `${11 - numGuess}`;
+    numGuess ++
 }
 
 function displayMessage(message) {
